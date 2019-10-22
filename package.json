@@ -1,0 +1,19 @@
+{
+  "name": "wasi-demo",
+  "version": "1.0.0",
+  "description": "WASI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "wasi"
+  ],
+  "author": "linux_china",
+  "license": "ISC",
+  "dependencies": {
+    "@wasmer/wasi": "^0.2.0",
+    "@wasmer/wasmfs": "^0.2.0"
+  }
+}
