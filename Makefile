@@ -10,4 +10,5 @@ run: example.wasm
 clean:
 	rm -rf *.wasm
 
-
+compiledb: clean
+	compiledb make
