@@ -127,3 +127,4 @@ dist/
 build/
 package-lock.json
 *.wasm
+compile_commands.json
