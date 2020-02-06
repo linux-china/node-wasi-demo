@@ -1,5 +1,5 @@
-const WASI = require('@wasmer/wasi');
-const WasmFs = require("@wasmer/wasmfs");
+const {WASI} = require('@wasmer/wasi');
+const {WasmFs} = require("@wasmer/wasmfs");
 const nodeFs = require("fs");
 
 const wasmFs = new WasmFs();
@@ -38,6 +38,6 @@ const startWasiTask = async () => {
     console.log(stdout);
 };
 
-startWasiTask().finally(()=>{
+startWasiTask().finally(() => {
     //console.log("Exit")
 });
