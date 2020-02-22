@@ -8,8 +8,8 @@ let wasi = new WASI({
     env: {},
     args: [],
     bindings: {
-        //fs: wasmFs,
-        fs: nodeFs,
+        fs: wasmFs,
+        // fs: nodeFs,
         ...WASI.defaultBindings
     }
 });
