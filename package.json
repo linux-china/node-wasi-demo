@@ -4,7 +4,7 @@
   "description": "WASI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "wasi_build": "/opt/wasi-sdk/bin/clang example.c -o example.wasm"
   },
   "keywords": [
     "node",
