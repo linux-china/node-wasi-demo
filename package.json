@@ -13,7 +13,10 @@
   "author": "linux_china",
   "license": "ISC",
   "dependencies": {
-    "@wasmer/wasi": "^0.6.0",
-    "@wasmer/wasmfs": "^0.6.0"
+    "@wasmer/wasi": "^0.10.2",
+    "@wasmer/wasmfs": "^0.10.2"
+  },
+  "devDependencies": {
+    "@wasm-tool/wasi": "0.0.4"
   }
 }
